@@ -1,1 +1,10 @@
-
+<picture>
+  <source
+    srcset="dark-image.png"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img
+    src="light-image.png"
+    alt="Browser with large and small images of a coffee cup and plants"
+  />
+</picture>
